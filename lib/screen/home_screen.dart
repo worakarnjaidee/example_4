@@ -12,7 +12,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Screen (Example 4)"),
+        centerTitle: true,
+        title: Text("Lovely Pets", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -49,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
             SizedBox(
-              height: 40,
+              height: 50,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
